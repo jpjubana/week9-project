@@ -1,0 +1,30 @@
+.navbar-brand {
+    width: 50px;
+    padding: 10px;
+}
+
+.navbar-brand img {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin: auto;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.navbar-text {
+    margin: 17px 10px 12px;
+}
+
+.list-group-item {
+    background-color: ivory;
+    margin-top: 20px;
+}
